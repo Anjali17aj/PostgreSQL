@@ -1,0 +1,111 @@
+
+# SQL 
+
+
+SQL Stands for Structure Query Language. It is a computer language used for Storing, Manipulating and Retrieving data in databases. Invented by IBM. 
+
+
+## Lessons Learned
+
+**#Basic knowledge**
+
+-- To create and connect to a Database we need a SQL engine - 
+I am using PostgreSQL as SQL engine.
+
+It is a advanced relational database management system. Companies like Instagram, Spotify, Netflix.. etc uses PostgreSQL and is Supported by major cloud service providers such as Amazon, Microsoft and Google.
+PostgreSQL - best suited of Data Analysis and is completely open source.
+
+-- To write and run queries we need a graphical user interface  i.e  pgAdmin
+Both of these are downloaded from a single package from :  www.postgresql.org
+
+**#SQL**
+- SQL Stands for Structure Query Language. 
+- It is a computer language used for Storing, Manipulating and Retrieving data in databases. 
+- Invented by IBM. With SQL, users can create, modify, and query databases to perform various data operations efficiently.
+
+
+**#Database**
+- Databases serve as tools for storing and retrieving data or information. 
+- Data is organized and stored in the form of tables, which are structured collections of related information.
+- Metadata, on the other hand, defines and describes the data structure within the database.It provides information about the tables, columns, relationships, and constraints, which aids in efficiently retrieving and managing data from the database. 
+- SQL works on relational database which are collection of tables. Record in a table is a row, Attribute is a column in a table. Intersection of rows and columns is a cell which has unique value.
+
+
+**#DBMS stands for Database Management Systems.**
+- It is a software tool used to define, manage, and process databases.
+- With DBMS, you can create new databases and design their data structure.
+- It enables you to modify data, retrieve data using queries, and store data over a long period of time to prevent loss. 
+- In case of system failures or data loss, DBMS facilitates data recovery. 
+- Additionally, it provides control over user access, allowing you to determine who can use the database and who cannot.
+
+Database has elements like  Tables, Views, Schemas.
+
+**#5 Different SQL Commands:**
+
+**DDL** : Data definition language. 
+It defines structure of data. 
+Used to create, modify, delete Tables. All for tables.
+
+Used by developers and architect.
+
+DDL Commands are: 
+              
+     1) CREATE Command 2) ALTER Command 3) DROP Command.  
+CREATE Table, INSERT Table, DROP Table.
+
+**DML** : Data Manipulation Language.
+Helps to manipulated the stored data  all inside the table.
+
+Used by operations and database managers.
+
+DML Commands are:
+                   
+     1) INSERT  2)UPDATE 3)DELETE  
+INSERT Rows, UPDATE the inserted values inseide table, Delete particular rows of the table.
+
+
+**DQL** : Data Query Language. 
+Used to retrieve stored data from table which is done by using Select statement.
+
+Used by Analysts.
+
+DQL Commands are:
+         
+    1) SELECT  2) ORDER BY  3) GROUP BY.
+
+
+**DCL** : Data Control Language . 
+Used to control the access privileges to users within the database. 
+
+  Used by database admins.
+  DCL Commands are:
+
+    1) GRANT  2) REVOKE   
+
+
+**TCC** : Transactional Control Language. 
+It gives the power to manipulate various transactions over the database. This can be used to maintain data integrity.
+
+Used by operations and database managers.
+TCC Commands are:
+           
+    1) COMMIT  2)ROLLBACK
+COMMIT which will make the changes done to the database permanent. 
+ROLLBACK which rolls back the database to a particular point this can be a savepoint or last save point.
+
+
+
+
+
+**Lesson learnt** :
+
+Companies invest in data technologies to handle large volumes of data efficiently. 
+SQL is vital in this process as it grants controlled access to data and enables manipulation for extracting valuable insights. This empowers business managers to make informed decisions. 
+Software developers build software with databases as backends, while database administrators manage the databases. 
+Business managers and analysts utilize data to uncover business insights and make strategic decisions.
+## Tech Stack
+
+**SQL Engine :** PostgreSQL
+
+**Graphical User Interface :** pgAdmin
+
