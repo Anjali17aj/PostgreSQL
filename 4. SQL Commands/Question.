@@ -1,0 +1,7 @@
+> ----Creating Training database----
+>Add tables
+>Training database contains : Customers, products and the transaction those customers are doing.
+> 3 tables : Customer table, Product table and transaction table ( Customer A bought this much quantity of B for this much amt.)
+> creating table involves naming the table and defining its columns and each column's data type.
+(SQL commands in capital, Close the command using semicolon).
+
