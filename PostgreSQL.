@@ -1,0 +1,11 @@
+# PostgreSQL :-
+Why PostgreSQL?
+> completely open sourse 
+> complete ACID Compliance
+> Comprehensive documentation and active discussions forums
+> PostgreSQL is best suited for Data warehousing and data analysis applications that require fast read/write speeds.
+> supported by all major cloud service providers, including Amazon, Google, & Microsoft.
+
+To create and connect to a Database we need a SQL engine, using PostgreSQL as SQL engine.
+ To write and run queries we need a graphical user interface  i.e  pgAdmin
+
