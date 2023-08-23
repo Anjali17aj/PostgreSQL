@@ -1,0 +1,10 @@
+> Types of constraints: 
+NOT NULL Constraint.
+Default constraint.
+Unique constraint
+check constraint
+Primary key constraint : Uniquely identify each row in a table. A primary key can consists of one or more columns on a table. When multiple columns are used as a primary key, they are called a composite key. Primary key ensures that there are no duplicate records in a database
+Foreign key constraint : Foreign key is a column that references a column of another table.(most often primary key of another table). The purpose of foreign key is to ensure referential  integrity of the data.
+
+
+
