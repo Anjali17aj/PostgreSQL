@@ -1,3 +1,3 @@
 # SQL.
 
-SQL Engine used : postgresql and Graphical interface : pgAdmin
+This repo contains SQL commands. SQL Engine used : PostgreSQL and Graphical interface : PgAdmin4
